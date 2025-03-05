@@ -8,8 +8,8 @@ RESET='\033[0m'
 # Логотип
 logo() {
     echo -e "
-${RESET}  ____    ${NEON_BLUE}____
-${RESET} |  _ \\ ${NEON_BLUE}|  _ \\
+${RESET}  ____   ${NEON_BLUE}____
+${RESET} |  _ \\  ${NEON_BLUE}|  _ \\
 ${RESET} | | | | ${NEON_BLUE}| |_) |
 ${RESET} | |_| | ${NEON_BLUE}|  __/
 ${RESET} |____/  ${NEON_BLUE}|_|
