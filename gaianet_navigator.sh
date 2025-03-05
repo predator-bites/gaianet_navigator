@@ -58,5 +58,8 @@ elif [[ $CHOISE -eq 3 ]]; then
 else
     echo -e "${NEON_RED}Invalid choice. Please enter a valid number.${RESET}"
 fi
-
+echo " "
+echo "Subscript on author of autoinstaller using next url:"
 echo -e "${NEON_BLUE}https://t.me/DropPredator${RESET}"
+echo " " 
+echo " Autoinstaller is finished work "  
