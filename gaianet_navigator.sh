@@ -65,7 +65,7 @@ elif [[ $CHOISE -eq 4 ]]; then
         sleep 10
     else
         echo -e "${NEON_RED}You haven't completed step 3. The 'gaianet_script' session does not exist.${RESET}"
-
+    fi
 else
     echo -e "${NEON_RED}Invalid choice. Please enter a valid number.${RESET}"
 fi
