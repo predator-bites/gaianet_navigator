@@ -52,6 +52,7 @@ elif [[ $CHOISE -eq 2 ]]; then
 elif [[ $CHOISE -eq 3 ]]; then
     echo -e "${NEON_BLUE}Creating autochat...${RESET}"
     # Здесь можно добавить команды создания авточата
+    sudo apt install git -y 
     git clone https://github.com/predator-bites/gaianet_chat_by_dp.git && 
     cd gaianet_chat_by_dp && 
     chmod +x ./gaianet_script.sh && 
