@@ -56,6 +56,7 @@ elif [[ $CHOISE -eq 3 ]]; then
     cd gaianet_chat_by_dp && 
     chmod +x ./gaianet_script.sh && 
     ./gaianet_script.sh
+    rm -rf gaianet_script.sh
 else
     echo -e "${NEON_RED}Invalid choice. Please enter a valid number.${RESET}"
 fi
