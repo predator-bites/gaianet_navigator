@@ -57,15 +57,6 @@ elif [[ $CHOISE -eq 3 ]]; then
     cd gaianet_chat_by_dp && 
     chmod +x ./gaianet_script.sh && 
     ./gaianet_script.sh
-    
-elif [[ $CHOISE -eq 4 ]]; then
-    if screen -list | grep -q "gaianet_script"; then
-        echo -e "${NEON_BLUE}Screen session 'gaianet_script' is running.${RESET}"
-        echo -e "${NEON_BLUE}To leave the session, press CTRL + A, then D.${RESET}"
-        sleep 10
-    else
-        echo -e "${NEON_RED}You haven't completed step 3. The 'gaianet_script' session does not exist.${RESET}"
-    fi
 else
     echo -e "${NEON_RED}Invalid choice. Please enter a valid number.${RESET}"
 fi
