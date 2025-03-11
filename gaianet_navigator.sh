@@ -28,7 +28,6 @@ echo -e "${NEON_BLUE}----------------------------------${RESET}"
 echo "1. Install"
 echo "2. Update"
 echo "3. To create autochat"
-echo "4. To check script work"
 echo -e "${NEON_BLUE}----------------------------------${RESET}"
 read -p "Enter num of action: " CHOISE
 
@@ -65,3 +64,6 @@ echo "Subscript on author of autoinstaller using next url:"
 echo -e "${NEON_BLUE}https://t.me/DropPredator${RESET}"
 echo " " 
 echo " Autoinstaller is finished work "  
+echo " To check work of script use next command: "
+echo " screen -r gaianet_chat_1" 
+
